@@ -1,0 +1,59 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: linear-gradient(245deg,rgb(6, 70, 112),rgb(230, 222, 234));
+        
+
+        }
+        .container{
+            background-image: linear-gradient(245deg,rgb(175, 207, 78),rgb(191, 202, 37));
+            height: 250px;
+            width: 700px;
+            margin-top:100px;
+        
+        }
+        button{
+            height:30px;
+            width: 50px;
+            background-color:rgb(20, 206, 32);
+        }
+        button:hover{
+            transform: scale(2);
+            background-color: rgb(96, 195, 237);
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <center>
+    <div class="container">
+        <div><h2>TEXT</h2></div>
+        <hr></hr>
+        <label>Enter the message: </label><br></br>
+        <label>✉️</label>
+        <input type="text" name="message-input" id="message-input" placeholder="drop your msg here">
+        <br></br>
+        <p>
+            <button id="click" onclick="getMessage()">Submit</button>
+            <button id="click" onclick="getMessage()">reset</button>
+        </p>
+        <p id="message-output" style="text-align: center; text-transform: uppercase;"></p>
+
+    </div>
+    <footer>
+        <p>Share your msg by using this box.....!</p>
+    </footer>
+</center>
+<script src="mini.js"></script>
+</body>
+</html>
